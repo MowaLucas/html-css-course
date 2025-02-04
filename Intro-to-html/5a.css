@@ -1,0 +1,179 @@
+p{
+  font-family: Arial;
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.tahoma{
+font-family: Tahoma;
+font-size: 24px;
+color:black;
+margin-bottom: 20px;
+font-weight: bold; 
+}
+.arial{
+font-size: 24px;
+color:black;
+margin-bottom: 4px;
+font-weight: bold; 
+}
+.sales{
+font-size: 12px;
+font-weight:medium;
+color:rgb(221, 24, 24);
+margin-top: 0;
+font-style: italic;
+}
+.html{
+font-family:Verdana;
+font-size: 18px;
+color:black;
+font-weight: bold;
+}
+.beginner{
+font-family:verdana;
+font-size: 12px;
+font-weight:medium;
+color:gray;
+margin-top:0;
+}
+.course{
+font-family:verdana;
+font-size: 14px;
+font-weight:medium;
+color:rgb(0, 0, 0);
+margin-top: 20px; 
+width: 250px;
+line-height: 22px;
+}
+.started{
+  background-color: rgb(25, 112, 3);
+  color: white; 
+  Border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  Margin-right:8px;
+  margin-top: 4px;
+  transition: opacity 0.15s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+   }
+   .started:hover{
+    opacity: 0.8;
+   }
+   .started:active{
+   opacity: 0.5;
+   }
+.shopping{
+font-size: 24px;
+color:black;
+font-weight: bold;  
+text-align: center;
+}
+.see{
+font-size: 12px;
+color:black;
+font-weight:medium;
+margin-top: 20px; 
+text-align: center;  
+}
+.learn{
+font-size: 12px;
+color:rgb(110, 110, 240);
+font-weight:medium;
+margin-top: 20px; 
+text-align: center;   
+}
+.New{
+font-size: 12px;
+color:rgb(246, 132, 11);
+font-weight:medium;
+margin-top: 20px; 
+text-align: center; 
+}
+.macbook{
+font-size: 18px;
+color:black; 
+text-align:center; 
+font-weight: bold;
+}
+.supercharged{
+font-size: 28px;
+color:black;
+text-align: center; 
+font-weight: bold;
+}
+.amount{
+font-size: 12px;
+font-weight: medium;
+color:rgb(72, 71, 71);
+text-align: center; 
+}
+.buy{
+  background-color: rgb(25, 112, 3);
+  color: white; 
+  Border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: opacity 0.15s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 48.5%;
+   }
+   .buy:hover{
+    opacity: 0.8;
+   }
+   .buy:active{
+   opacity: 0.5;
+   } 
+   .USD{
+  font-size: 20px;
+  color:black;
+ }
+ .U{
+  color:rgb(72, 71, 71);
+  font-size:12px;
+  font-weight: medium;
+ }
+ .decimal{
+  font-size: 12px;
+  color: green;
+ }
+ .after{
+  font-size: 12px;
+  color:rgb(72, 71, 71);
+  margin-bottom: 20px;
+ }
+ .percent{
+  color: red;
+ }
+ .free{
+  font-size: 14px;
+  font-weight:bold;
+  margin-top: 40px;
+ }
+ .at{
+  color:rgb(72, 71, 71);
+ }
+ .narration{
+  font-size: 14px;
+  width: 450px;
+  line-height:22px;
+  font-weight:bold;
+  color:rgb(0, 0, 0);
+ }
+ .here{
+  font-size: 14px;
+  width: 450px;
+  line-height:22px;
+  font-weight:bold;
+  color:rgb(0, 0, 0); 
+ }
+ .chp{
+  color: rgb(51, 104, 229);
+ }
