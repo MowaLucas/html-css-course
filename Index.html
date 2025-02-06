@@ -8,66 +8,96 @@
    
   </head>
   <body>
-   
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand h1" href="#"><img style="width: 120px; margin-left: 20px;" src="Frames/Frame 283615.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div style="margin-left: 200px; margin-right: 400px;">
-              <ul class="navbar-nav me-auto">
-                  <li style="font-weight: 500; margin-right: 80px;" class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-disabled="true">Products</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a style="margin-left: 100px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/Eng.png" alt="">
-                      Eng 
-                    </a>
-                    <!--flags-->
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/German.png" alt=""> German </a></li>
-                      <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/French.png" alt=""> French </a></li>
-                      <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/spain.jfif" alt=""> Spanish </a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <div style="border-left: 1px solid  rgb(58, 58, 239); height: 32px; position: absolute; top: 12px; left: 88%;"></div>
-              </div>
-            <!--navbar button-->
-           <a href="openaccount.html" target="_blank"> <button style="color: white; background-color:  rgb(0, 0, 26); width: 120px; border-radius: 24px; padding: 8px; font-size: 14px; font-weight: 500; margin-left: 0px;" class="btn btn-outline-dark" type="submit">Open Account</button> </a>
-        </div>
+   <!--Navbar-->
+    <nav class="navbar navbar-expand-lg" style="background: white; padding: 10px; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); position: sticky; top: 0; width: 100%; z-index: 1000;">
+      <a class="navbar-brand" href="#" style="margin-left: 20px; font-size: 24px; font-weight: 700; color: rgb(34, 34, 34);">BudgetBuddy</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-between;">
+        <ul class="navbar-nav" style="margin-left: auto;">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+            onmouseover="this.style.color='#007bff';" 
+            onmouseout="this.style.color='#333';" class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+            onmouseover="this.style.color='#007bff';" 
+            onmouseout="this.style.color='#333';" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/Eng.png" alt="">
+              Eng 
+            </a>
+            <!--flags-->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/German.png" alt=""> German </a></li>
+              <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/French.png" alt=""> French </a></li>
+              <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/spain.jfif" alt=""> Spanish </a></li>
+            </ul>
+          </li>
+        </ul>
+        </ul>
+    <!--Navbar button-->
+        <a href="openaccount.html" 
+          style="background: rgb(58, 58, 227); color: white; padding: 12px; font-size:16px; border-radius: 12px; text-decoration: none; transition: all 0.3s;" 
+          onmouseover="this.style.background='#0056b3'; this.style.boxShadow='0px 4px 10px rgba(0, 123, 255, 0.3)';" 
+          onmouseout="this.style.background='#3a3ae3'; this.style.boxShadow='none';">
+          Open Account
+        </a>
       </div>
     </nav>
   <!--Horizontal Line-->
     <hr style="margin-top: 0; color:  rgb(0, 0, 26); margin-bottom: 0;">
     <!--Part 1-->
-<div style="top:0; padding-left:50px; display: grid; grid-template-columns: 1fr 1fr; height: 600px;">
-  <div class="card" style="margin-top: 60px; border: none;height: 500px;">
+<div style="top:0; padding-left:20px; display: grid; grid-template-columns: 1fr 1fr; height: 600px;">
+  <div class="card" style="margin-top: 60px; border: none; height: 500px;">
     <div style="font-family: sans-serif;" class="card-body">
-      <h1 style=" font-weight: 800; line-height: 48px; letter-spacing:0;" class="card-title">Take Control of <br> <span style="background-color:rgb(58, 58, 239); color: white;">Your Finances</span> <br> <span style="text-align: center;">with</span> <br> BudgetBuddy</h1>
+      <h1 style=" font-weight: 800; line-height: 60px; letter-spacing:0; font-weight: 800; color: rgb(34, 34, 34);" class="card-title">Take Control of <br> <span style=" color:rgb(58, 58, 227);">Your Finances</span> <br> <span style="text-align: center;">with</span> BudgetBuddy</h1>
     
       <!--second text-->
       <p style="font-weight: 500; font-size: 14px; color: rgb(101, 100, 100); margin-top: 16px; " class="card-text">Track your spending, set budgets, and achieve your financial goals <br> with ease.</p>
       <!--buttons-->
     <div style="margin-top: 48px;">
-      <a style="color: white; background-color: rgb(0, 0, 26); width: 120px; border-radius: 24px; padding: 8px; font-size: 14px; margin-right: 16px; font-weight: 500;" href="Getstarted.html" class="btn btn-dark text-light">Get Started</a>
+      <a style="background: rgb(58, 58, 227); color: white; padding: 14px; font-size:16px; border-radius: 12px; text-decoration: none; transition: all 0.3s;" 
+      onmouseover="this.style.background='#0056b3'; this.style.boxShadow='0px 4px 10px rgba(0, 123, 255, 0.3)';" 
+      onmouseout="this.style.background='#3a3ae3'; this.style.boxShadow='none';" href="Getstarted.html">Get Started</a>
       
-      <a style="border: 1px solid rgb(183, 207, 255); border-radius: 24px; width: 140px; padding: 8px; font-size: 12px; font-weight: 500; background-color: white;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)" href="#" class="btn btn-light text-dark">Generate your card</a>
+      <a style="width: 48%; padding: 12px; border: 1px solid #222; border-radius: 12px; background: white; cursor: pointer; transition: 0.3s;" 
+      onmouseover="this.style.background='#f1f1f1';" 
+      onmouseout="this.style.background='white';">Generate your card</a>
     </div>
     </div>
   </div>
@@ -76,29 +106,30 @@
     <img style="width: 500px; border-radius: 10px; height: 500px;" src="Frames/Frame 283666.png" alt="">
   </div>
 </div>
-<hr style="color:black; margin-left: 40px; margin-right: 40px; line-height: 10px; margin-bottom: 0;">
+<hr style="color:black; margin-left: 20px; margin-right: 20px; line-height: 10px; margin-bottom: 0;">
 <!--Part 2-->
 <div style=" padding-top: 48px;">
   <p style="text-align: center; font-size: 16px; font-weight: 500; color: rgb(101, 100, 100);">Trusted by Companies all over the World</p>
-  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; padding-left: 50px; height: 200px; margin-top: 40px;">
-    <div><img style="width: 160px; height: 160px;" src="Logo/pinterest.png" alt=""></div>
-    <div><img style="width: 160px; height: 160px;" src="Logo/Netflix.png" alt=""></div>
-    <div><img style="width: 160px; height: 160px;" src="Logo/Amazon.png" alt=""></div>
-    <div><img style="width: 160px; height: 160px;" src="Logo/Walmart.png" alt=""></div>
-    <div><img style="width: 160px; height: 160px;" src="Logo/Youtube.png" alt=""></div>
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; padding-left: 20px; height: 200px; margin-top: 40px; gap: 150px;">
+    <div><img style="width: 100px; height: 100px;" src="Logo/pinterest.png" alt=""></div>
+    <div><img style="width: 100px; height: 100px;" src="Logo/Netflix.png" alt=""></div>
+    <div><img style="width: 100px; height: 100px;" src="Logo/Amazon.png" alt=""></div>
+    <div><img style="width: 100px; height: 100px;" src="Logo/Walmart.png" alt=""></div>
+    <div><img style="width: 100px; height: 100px;" src="Logo/Youtube.png" alt=""></div>
+    <div><img style="width: 100px; height: 100px;" src="Logo/AliExpress-Logo.wine.svg" alt=""></div>
   </div>
 </div>
-<hr style="color:black; margin-left: 40px; margin-right: 40px; line-height: 10px; margin-bottom: 0;">
+<hr style="color:black; margin-left: 20px; margin-right: 20px; line-height: 10px; margin-bottom: 0;">
 <!--Part 3-->
 <div style="padding-top:48px; height: 800px;">
  
-  <a style="margin-left:45%;" href=""><button style="border: 1px solid rgb(183, 207, 255); border-radius: 24px; width: 140px; padding: 8px; font-size: 12px; font-weight: 500; background-color: white;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); margin-bottom: 16px;">Our Features</button></a>
+  <p style=" font-size: 20px; font-weight: 700; margin-bottom: 16px;text-align: center; font-weight: 700; margin-top: 8px; color: rgb(101, 100, 100); ">Our Features</p>
   
   <h4 style="text-align: center; font-weight: 700; margin-top: 8px; color: black;">Enjoy the best experience <br> with our features</h4>
   
   <p style="text-align: center; font-weight: 500; margin-top: 4px; color: rgb(101, 100, 100); font-size: 14px;">Here are 3 features we are all about</p>
 <!--Grid 2-->
-  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; height: 200px; gap:20px ; padding-left: 50px; padding-right: 50px; margin-top: 80px;">
+  <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; height: 200px; gap:20px ; padding-left: 20px; padding-right: 20px; margin-top: 80px;">
         <div style="background-color: rgb(6, 6, 110); padding: 40px; color: rgb(253, 252, 252); border-radius: 10px; padding-bottom: 0;">
           <h5>Seamless Expense <br> Management</h5>
           <p style="font-size: 14px;">Create and manage budgets tailored to your needs. <br> Set spending limits for different categories and <br> receive alerts when you're nearing your budget limits.</p>
@@ -120,12 +151,12 @@
 </div>
 
 <!--Part 4-->
-<div style="padding-top:48px; height: 700px; background-color: rgb(239, 244, 255)">
-  <a style="margin-left:45%;" href=""><button style="border: 1px solid rgb(183, 207, 255); border-radius: 24px; width: 100px; padding: 8px; font-size: 12px; font-weight: 500; background-color: white;  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); margin-bottom: 16px;">Why Us&#63;</button></a>
+<div style="padding-top:48px; height: 700px; background-color: rgb(239, 244, 255);">
+  <p style=" font-size: 20px; font-weight: 700; margin-bottom: 16px;text-align: center; font-weight: 700; margin-top: 8px; color: rgb(101, 100, 100);">Why Us&#63;</p>
   
   <h4 style="text-align: center; font-weight: 700; margin-top: 8px; color:black;">Trusted Partner for Achieving <br> Financial Freedom</h4>
   
-  <p style="text-align: center; font-weight: 500; margin-top: 4px; color: rgb(101, 100, 100); font-size: 14px;">Budget Buddy stands out as the ultimate tool to help you manage <br> your money, achieve your savings goals,</p>
+  <p style="text-align: center; font-weight: 500; margin-top: 4px; color: rgb(101, 100, 100); font-size: 14px;">Budget Buddy stands out as the ultimate tool to help you <br> manage your money, achieve your savings goals,</p>
   
   <!--Grid 3-->
   <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; height: 400px; gap: 60px; ">
@@ -147,7 +178,7 @@
   <a style="border-radius: 24px; width: 120px; padding: 8px; font-size: 12px; font-weight: 500; background-color: white; margin-top: 32px;" href="#" class="btn btn-light text-dark">Read More...</a>
   </div>
   <div style="display: inline-block; position: absolute; margin-left: 800px;">
-    <img style="width: 400px; height: 440px; margin-bottom:0px;" src="Frames/Frame 283701.png" alt="">
+    <img style="width: 400px; height: 440px; margin-top: -30px;" src="Frames/Frame 283701.png" alt="">
   </div>
 </div>
 
@@ -155,8 +186,8 @@
 
 <!--Part 6-->
 <div style="display: grid; grid-template-columns: 1fr 1fr; height: 300px; margin-top: 0;">
-  <div style="width: 510px; padding-left: 100px; padding-top: 60px; ">
-    <img style="width: 120px; margin-bottom: 8px; " src="Frames/Frame 283615.png" alt="">
+  <div style="width: 510px; padding-left: 20px; padding-top: 60px; ">
+    <a class="navbar-brand" href="#" style="font-size: 24px; font-weight: 700; color: rgb(34, 34, 34);">BudgetBuddy</a>
     <p style="font-size: 14px; font-weight: 200;color: rgb(101, 100, 100) " >Budgetbuddy10.2021@gmail.com</p>
 
     <p style="font-size: 16px; font-weight: 500; margin-bottom: 8px; margin-top: 70px;">Address</p>
@@ -195,7 +226,7 @@
   </div>
 </div>
 
-<hr style="color:black; margin-left: 80px; margin-right: 80px; line-height: 10px; margin-bottom: 0;">
+<hr style="color:black; margin-left: 20px; margin-right: 20px; line-height: 10px; margin-bottom: 0;">
 <!--Final Part-->
 <div style="height: 100px; margin-top: 20px;">
   <p style="text-align: center;">&copy;2025 BudgetBuddy. All Rights Reserved</p>

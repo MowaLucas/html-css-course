@@ -3,128 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open Account</title>
+  <title>Open an Account</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <!-- Option 1: Include in HTML -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> 
 </head>
 
 <body>
-    <!--navbar-->
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand h1" href="#"><img style="width: 120px;" src="Frames/Frame 283615.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg" style="background: white; padding: 10px; box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); position: sticky; top: 0; width: 100%; z-index: 1000;">
+      <a class="navbar-brand" href="#" style="margin-left: 20px; font-size: 24px; font-weight: 700; color: rgb(34, 34, 34);">BudgetBuddy</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div style="margin-left: 400px; margin-right: 300px;">
-            <ul class="navbar-nav me-auto">
-                <li style="font-weight: 500;" class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-disabled="true">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/Eng.png" alt="">
-                    Eng 
-                  </a>
-                  <!--flags-->
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/German.png" alt=""> German </a></li>
-                    <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/French.png" alt=""> French </a></li>
-                    <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/spain.jfif" alt=""> Spanish </a></li>
-                  </ul>
-                </li>
-              </ul>
-              <div style="border-left: 1px solid  rgb(58, 58, 239); height: 32px; position: absolute; top: 12px; left: 64%;"></div>
-            </div>
-          <!--navbar button-->
-         <a href="Getstarted.html" target="_blank"> <button style="color: white; background-color:  rgb(0, 0, 26); width: 120px; border-radius: 24px; padding: 8px; font-size: 14px; font-weight: 500;" class="btn btn-outline-dark" type="submit">Get Started</button> </a>
+    
+      <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-between;">
+        <ul class="navbar-nav" style="margin-left: auto;">
+          <li class="nav-item">
+            <a class="nav-link" href="Index.html" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              Products
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" 
+              style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+              onmouseover="this.style.color='#007bff';" 
+              onmouseout="this.style.color='#333';">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+            onmouseover="this.style.color='#007bff';" 
+            onmouseout="this.style.color='#333';" class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="color: rgb(51, 51, 51); font-size: 1.1rem; padding: 10px 15px; transition: all 0.3s;" 
+            onmouseover="this.style.color='#007bff';" 
+            onmouseout="this.style.color='#333';" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/Eng.png" alt="">
+              Eng 
+            </a>
+            <!--flags-->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/German.png" alt=""> German </a></li>
+              <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/French.png" alt=""> French </a></li>
+              <li><a class="dropdown-item" href="#"><img style="width: 16px; height: 16px; border-radius: 50%;" src="Flags/spain.jfif" alt=""> Spanish </a></li>
+            </ul>
+          </li>
+        </ul>
+        </ul>
+    <!--navbar button-->
+        <a href="Getstarted.html" 
+          style="background: rgb(58, 58, 227); color: white; padding: 12px; font-size:16px; border-radius: 12px; text-decoration: none; transition: all 0.3s;" 
+          onmouseover="this.style.background='#0056b3'; this.style.boxShadow='0px 4px 10px rgba(0, 123, 255, 0.3)';" 
+          onmouseout="this.style.background='#3a3ae3'; this.style.boxShadow='none';">
+          Get Started
+        </a>
       </div>
-    </div>
-  </nav>
+    </nav>
+  
   <!--Horizontal Line-->
     <hr style="margin-top: 0; color:  rgb(0, 0, 26); margin-bottom: 0;">
-<!--Open account page-->
-<div style=" border-radius: 20px; margin-top: 40px; margin-left: 250px; margin-right: 250px; display: grid; grid-template-columns: 1fr 1fr;  background-image: linear-gradient(to right, rgb(3, 15, 59), rgb(0, 12, 56)); height:532px; padding:16px;">
-  <!--Carousel-->
-  <div>
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img style="height: 500px; width: 400px; border-radius: 20px;" src="Pictures/anne-nygard-OtqaCE_SEMI-unsplash.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Set Your Budget for a period of time</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img style="height: 500px; width: 400px; border-radius: 20px; "  src="Pictures/sajad-nori-XihAgOYNHn4-unsplash.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Track your Spending with ease</h3>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img style="height: 500px; width: 400px; border-radius: 20px;"  src="Pictures/coinhako-t28IwDyGHnU-unsplash.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Seamless Financial Management</h3>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-  <!--Sign up-->
-  <div style=" padding-left: 100px; margin-top: 50px;">
-    <h1 style="color: white;">Open an Account</h1>
-    <p style="color: white;">Already have an account? <span> <a href="Getstarted.html"> Log In</a></span></p>
-  <!--form-->  
-    <form>
-      <input style="text-align: left; width: 150px; height: 36px; border-radius:4px; color:rgb(101, 100, 100); font-size: 12px; font-weight: 500; border: 0.2px solid rgba(229, 229, 229, 0.178); background-color:rgb(11, 21, 58); margin-right: 8px;" type="text" id="fname" name="firstname" value="Mowalola">
-      <input style="width: 150px; height: 36px; border-radius:4px; color:rgb(101, 100, 100); font-size: 12px; font-weight: 500; border: none; background-color:rgb(11, 21, 58) ;" type="text" id="lastName" name="lname" value="Last Name"><br>
-      <input style="width: 308px; height: 36px; border-radius:4px; color:rgb(101, 100, 100); font-size: 12px; font-weight: 500; border: none; background-color:rgb(11, 21, 58); margin-top: 16px;" type="text" id="emailAddress" name="email" value="Email"><br>
-      <label for="password"></label>
-      <input style="width: 308px; height: 36px; border-radius:4px; color:rgb(101, 100, 100); font-size: 12px; font-weight: 500; border: none; background-color:rgb(11, 21, 58); margin-top:16px; display: block;" type="text" id="enterPassword" name="Password" value=" Enter Password">
-      </form>
+    <body style="background: #f5f5f5; font-family: Arial, sans-serif;">
 
-      <div style="display: grid; grid-template-columns: 1fr 1fr;">
-        <div style="margin-top:8px; height: 20px; width: 20px;">
-          <img style="margin-top:8px; height: 20px; width: 20px; background-color:white;" src="Pictures/check-square.svg" alt=""> 
+  <!-- Login Section -->
+  <div style=" border-radius: 20px; margin-top: 40px; margin-left: 250px; margin-right: 250px; display: grid; grid-template-columns: 1fr 1fr;  background-image: linear-gradient(to right, rgb(3, 15, 59), rgb(0, 12, 56)); height:632px; padding:16px;">
+    <!--Carousel-->
+    <div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-      <div style="display: inline-block; margin-top: 16px; margin-right: 100px; margin-left: 8px; width:300px;">
-        <p style="color: white; font-size: 12px; font-weight: 400;">I agree to the? <span> <a href=""> Terms and Conditions</a></span></p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 600px; width: 400px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;" src="Pictures/anne-nygard-OtqaCE_SEMI-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Set Your Budget for a period of time</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 600px; width: 400px; border-radius: 20px; "  src="Pictures/sajad-nori-XihAgOYNHn4-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Track your Spending with ease</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 600px; width: 400px; border-radius: 20px;"  src="Pictures/coinhako-t28IwDyGHnU-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Seamless Financial Management</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      </div>
-      <button style="width: 308px; height: 36px; border-radius:4px; color:black; font-size: 16px; font-weight: 500; border: none; background-color:rgb(183, 207, 255); margin-top: 16px;">Open Account</button>
-    
-      <hr style="margin-top: 24px; color:  rgb(183, 207, 255); margin-bottom: 24px; width: 308px;">
-     
-      <button style="text-align: left; width: 150px; height: 36px; border-radius:4px; color:white; font-size: 16px; font-weight: 500; border: 0.2px solid rgba(229, 229, 229, 0.178); background-color:rgb(11, 21, 58); margin-right: 8px;text-align: center;">Gmail Account</button>
-     
-      <button style="text-align: left; width: 150px; height: 36px; border-radius:4px; color:white; font-size: 16px; font-weight: 500; border: 0.2px solid rgba(229, 229, 229, 0.178); background-color:rgb(11, 21, 58); margin-right: 8px;text-align: center;" >Apple Account</button>
-</div>
+    </div>
+    <!-- Right Section - Login Form -->
+    <div class="col-md-6" style="background: white; padding: 40px; border-radius: 0 10px 10px 0; height: 600px; width: 500px;">
+      <h2 style="text-align: center; margin-bottom: 20px;">Create an Account</h2>
+      <p style="text-align: center; color: #666;">Already have an account? <a href="Getstarted.html" style="color: rgb(58, 58, 227); font-weight: bold;">Log In</a></p>
+      
+      <form>
+          <input type="text" placeholder="Enter name" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;">
+          <input type="text" placeholder="Enter Email" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;">
+          <input type="text" placeholder="Enter Phone Number" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;">
+          <input type="password" placeholder="Enter Password" style="width: 100%; padding: 12px; border-radius: 6px; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px;">
+          <label style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: rgb(51, 51, 51);">
+              <input type="checkbox"> I agree to the <a href="#" style="color: rgb(58, 58, 227);">Terms and Conditions</a>
+          </label>
+
+          <button style="width: 100%; background: rgb(58, 58, 227); color: white; padding: 12px; border-radius: 6px; border: none; cursor: pointer; transition: 0.3s; margin-top: 15px;" 
+              onmouseover="this.style.background='#0056b3'; this.style.boxShadow='0px 4px 10px rgba(0, 123, 255, 0.3)';" 
+              onmouseout="this.style.background='#3a3ae3'; this.style.boxShadow='none';">
+              Sign Up
+          </button>
+
+          <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+              <button style="width: 48%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; background: white; cursor: pointer; transition: 0.3s;" 
+                  onmouseover="this.style.background='#f1f1f1';" 
+                  onmouseout="this.style.background='white';">
+                  Gmail Account
+              </button>
+              
+              <button style="width: 48%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; background: white; cursor: pointer; transition: 0.3s;" 
+                  onmouseover="this.style.background='#f1f1f1';" 
+                  onmouseout="this.style.background='white';">
+                  Apple Account
+              </button>
+          </div>
+      </form>
+  </div>
+  </div>
+      
+      </body>
 
 
 
